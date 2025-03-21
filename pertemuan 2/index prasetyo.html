@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index Prasetyo</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        height: 100%;
+      }
+      th,
+      td {
+        border: 1px solid black; 
+        padding: 10px;
+      }
+      iframe {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="100%" height="100%" cellspacing="0" cellpadding="10">
+      <thead>
+        <tr>
+          <th width="20%" style="text-align: center;">Audio</th>
+          <th width="30%" style="text-align: center;">Video</th>
+          <th width="20%" style="text-align: center;">Logo</th>
+          <th width="30%" style="text-align: center;">Keterangan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td align="center">
+            <audio controls>
+              <source src="src/assets/audio/lostmemory.mp3" type="audio/mp3" />
+            </audio>
+          </td>
+          <td align="center">
+            <video width="300" controls>
+              <source src="src/assets/video/linuxslander.mp4" type="video/mp4" />
+            </video>
+          </td>
+          <td align="center">
+            <img
+              src="src/assets/logo.png"
+              alt="Logo Universitas"
+              width="120"
+            />
+          </td>
+          <td align="left">
+            <strong>Nama      :</strong> Prasetyo Aditama <br />
+            <strong>Kelas     :</strong> IF-C SIANG <br />
+            <strong>Prodi     :</strong> INFORMATIKA <br />
+            <strong>Semester  :</strong> 2 (DUA)<br />
+            <strong>Angkatan  :</strong> 2024 <br />
+            <strong>Alasan memilih jurusan informatika:</strong> 
+            Saya memiliki ketertarikan terhadap bagaimana sebuah komputer bekerja sejak saya masih berusia 3 tahun <br />
+          </td>
+        </tr>
+        <tr>
+          <th width="50%" colspan="2" style="text-align: center;">Video</th>
+          <th width="50%" colspan="2" style="text-align: center;">Konten</th>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <iframe
+              width="640"
+              height="360"
+              src="https://www.youtube.com/embed/YkoTz6Bzwmw?"
+              allowfullscreen
+            ></iframe>
+            <br /><br />
+            <a href="https://youtu.be/YkoTz6Bzwmw?" target="_blank"
+              class="btn btn-info"
+              >War Thunder - MiG-21bis - Trava U Doma</a
+            >
+          </td>
+          <td colspan="2" align="center">
+            <iframe
+              width="280"
+              height="160"
+              src="https://www.youtube.com/embed/MXSI4H3HNv4?"
+              allowfullscreen
+            ></iframe>
+            <br />
+            <a
+              href="https://youtu.be/MXSI4H3HNv4?"
+              target="_blank"
+              class="btn btn-warning"
+              >The Mirage III</a
+            >
+            <br />
+            <iframe
+              width="280"
+              height="160"
+              src="https://www.youtube.com/embed/0abvchv96b8"
+              allowfullscreen
+            ></iframe>
+            <br />
+            <a
+              href="https://youtu.be/0abvchv96b8"
+              target="_blank"
+              class="btn btn-danger"
+              >Radxa X2L: Low-Cost X86 SBC with RP2040</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

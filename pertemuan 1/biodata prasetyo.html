@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Prasetyo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-image: url(src/assets/hws.gif);
+            background-size: cover;
+        }
+        h1 {
+            color: #5b5b5b;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #990000;
+            color: white;
+        }
+        .no-hover {
+                background-color: transparent !important;
+                pointer-events: none;
+        }
+        tr:hover > td:not(.no-hover) {
+                background-color: #898585;
+        }
+        img {
+            width: 50%;
+            height: auto;
+            display: block;
+            margin: auto;
+            border: 2px solid #990000;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        .button {
+            display: inline-block;
+            background-color: #990000;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin: 20px auto; 
+        }
+        .button:hover {
+            background-color: #b11236;
+        }
+        .button-container {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Biodata Mahasiswa</h1>
+    <table>
+        <tr>
+            <th colspan="3">Detail</th>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>Prasetyo Aditama</td>
+            <td rowspan="4" class="no-hover" style="text-align: center;">
+                <img src="src/assets/garuda.webp" alt="Garuda Team Emblem">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>NIM</td>
+            <td>2403310674</td>
+        </tr>
+        <tr>
+            <td>Fakultas</td>
+            <td>Teknologi dan Ilmu Komputer</td>
+        </tr>
+        <tr>
+            <td>Prodi</td>
+            <td>S1 Informatika</td>
+        </tr>
+    </table>
+    <img src="src/assets/mirage3.jpg" alt="Mirage 3 Black Widow">
+    <div class="button-container">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button">Link</a>
+    </div>
+</body>
+</html>

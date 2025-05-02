@@ -38,8 +38,8 @@ nav.navbar ul li a.active {
   justify-content: center;
   padding: 20px;
   background-image: url('https://www.w3schools.com/css/mountain.jpg');
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center; /* Centers the image */
+  background-size: cover; 
+  background-position: center; 
 }
 
 .article {
@@ -73,4 +73,13 @@ nav.navbar ul li a.active {
   color: #f8f8f8;
   line-height: 1.6;
   text-align: justify;
+}
+
+.footer {
+  clear: both;
+  background-color: #2E7D32;
+  color: white;
+  padding: 4px 0;
+  width: 100%;
+  text-align: center;
 }

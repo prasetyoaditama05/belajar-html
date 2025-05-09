@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h2 class="formreg">Silahkan Isi Data</h2>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="midname">Middle Name:</label>
+            <input type="text" id="midname" name="midname" required>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <label for="tgllahir">Tanggal Lahir:</label>
+            <input type="date" id="tgllahir" name="tgllahir">
+
+            <label>Gender:</label>
+                <div class="radio-group">
+                    <label for="male">
+                        <input type="radio" name="gender" value="male" id="male"> Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="gender" value="female" id="female"> Female
+                    </label>
+                </div>
+
+            <label for="alamat">Tempat Tinggal:</label>
+            <input type="text" id="alamat" name="alamat" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            
+            <button type="submit">Register</button>
+            <div>
+                <button type="submit">Kembali</button>
+                <button type="submit">Back</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

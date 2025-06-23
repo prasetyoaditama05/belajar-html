@@ -5,11 +5,11 @@ class Catalog extends React.Component {
     super();
     this.allBooks = [
       ["buku1.jpg", "Menguasai Pemrograman Berorientasi Objek", "Ade Rahmat Iskandar", "Informatika", 2020, 4.8],
-      ["buku2.jpg", "Dasar-Dasar Pemrograman dengan .NET", "Ade Rahmat Iskandar", "Informatika", 2019, 4.7],
-      ["buku3.jpg", "Metodologi Pengembangan Sistem Informasi", "Samiaji Sarosa", "Indeks", 2017, 4.5],
+      ["buku2.jpg", "Dasar-Dasar Pemrograman dengan .NET", "Ade Rahmat Iskandar", "Informatika", 2019, 4.4],
+      ["buku3.jpg", "Metodologi Pengembangan Sistem Informasi", "Samiaji Sarosa", "Indeks", 2017, 4.1],
       ["buku4.png", "Struktur Data", "Rosa A.S", "Modula", 2018, 4.3],
-      ["buku5.jpg", "Dasar Pemrograman Python 3", "Abdul Kadir", "Andi Publisher", 2018, 4.6],
-      ["buku6.jpeg", "Sistem Basis Data Dan Sql", "Didik Setiyadi", "Mitra Wacana Media", 2020, 4.4],
+      ["buku5.jpg", "Dasar Pemrograman Python 3", "Abdul Kadir", "Andi Publisher", 2018, 4.7],
+      ["buku6.jpeg", "Sistem Basis Data Dan Sql", "Didik Setiyadi", "Mitra Wacana Media", 2020, 4.5],
       ["buku7.jpg", "Perancangan Basis Data Teori", "Suhartini", "Deepublish", 2020, 4.2],
       ["buku8.jpg", "Teori Dan Praktek Sistem Operasi", "Zaid Romegar Mair", "Deepublish", 2018, 4.1]
     ];

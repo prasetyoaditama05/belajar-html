@@ -35,17 +35,6 @@ function App() {
             />
             <label className="form-check-label" htmlFor="byTitle">Title</label>
           </div>
-          <div className="form-check form-check-inline">
-            <input
-              className="form-check-input"
-              type="radio"
-              name="filter"
-              id="byAuthor"
-              checked={filterBy === 'author'}
-              onChange={() => setFilterBy('author')}
-            />
-            <label className="form-check-label" htmlFor="byAuthor">Author</label>
-          </div>
         </div>
       </div>
       
